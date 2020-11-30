@@ -24,14 +24,10 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ArrayList<Genero> genre=new ArrayList<>();
-        genre.add(new Genero("Comedia"));
-        genre.add(new Genero("Acción"));
         
-        ArrayList<Actor> cast=new ArrayList<>();
-        cast.add(new Actor("Bob Esponja"));
-        cast.add(new Actor("Patricio Estrella"));
         
+        
+        /*
         Director director=new Director("Kenau Rives");
         
         Pelicula pelicula=new Pelicula("El rescate", "2020", "Gary");
@@ -60,7 +56,7 @@ public class Main {
         System.out.println(p.PrestarPelicula(so1, pelicula, cinta, le, pre));
         
         MostrarDevolucion md=new MostrarDevolucion();
-        System.out.println(md.Devolver(cinta.get(2), dev, le, pre));
+        System.out.println(md.Devolver(cinta.get(2), dev, le, pre));*/
     }
     
 }
